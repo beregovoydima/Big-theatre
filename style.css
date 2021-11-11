@@ -1,0 +1,1356 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Open Sans Condensed", sans-serif;
+  background: #333333;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 1110px;
+}
+
+.header {
+  width: 100%;
+  height: 1045px;
+  background-image: url(images/head.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact_info {
+  position: absolute;
+  position: fixed;
+  width: 150px;
+  height: 100%;
+  background-color: #333333;
+  opacity: 0.75;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+.contact_information {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.contact_hr {
+  margin-top: 40px;
+  border-left: 3px solid #c4c4c4;
+  height: 80px;
+  left: 50%;
+}
+
+.messenger {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.messenger > a {
+  margin-bottom: 25px;
+}
+
+.insta:hover path {
+  fill: #d1a954;
+  fill-opacity: 1;
+}
+
+.facebook :hover path {
+  fill: #d1a954;
+  fill-opacity: 1;
+}
+
+.vk :hover path {
+  fill: #d1a954;
+  fill-opacity: 1;
+}
+
+.youtube:hover path {
+  fill: #d1a954;
+  fill-opacity: 1;
+}
+
+.header_section {
+  width: 100%;
+  height: 1045px;
+}
+
+.nav {
+  width: 100%;
+  height: 77px;
+  position: absolute;
+  position: fixed;
+  background: rgba(51, 51, 51, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+}
+
+.container_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav_ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0 0 0;
+  padding-left: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.nav_li:not(:last-child) {
+  margin-right: 63px;
+}
+
+.nav_link {
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.nav_link:hover {
+  border-bottom: 2px solid #d1a954;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.header_tel {
+  text-decoration: none;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 50px;
+  padding-bottom: 5px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.header_tel:hover {
+  border-bottom: 2px solid #d1a954;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.container_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_text {
+  width: 540px;
+  margin-top: 384px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.h1_text {
+  width: 540px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 68px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about_teatre {
+  width: 540px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 50px 0;
+  color: #ffffff;
+}
+
+.poster {
+  width: 160px;
+  height: 50px;
+  border: none;
+  background: #d1a954;
+  color: #ffffff;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.poster:hover {
+  background: #989898;
+}
+
+.main {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #333333;
+}
+
+.about_teatre_section {
+  width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_theatre_text {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d1a954;
+}
+
+.h2_text {
+  color: #fff;
+}
+
+.about_teatre_contant {
+  width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.great_theatre {
+  width: 445px;
+}
+
+.about_number {
+  width: 255px;
+}
+
+.about_theatre_img {
+  width: 350px;
+  height: 292px;
+}
+
+.h3_text {
+  margin-bottom: 40px;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.great_theatre_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.place_text {
+  margin: 15px 0;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #d1a954;
+}
+
+.pt2 {
+  color: #fff;
+}
+
+.our_staging {
+  height: 920px;
+  background: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our_staging_section {
+  margin-left: 150px;
+}
+
+.our_staging_text {
+  margin: 50px auto 100px;
+}
+
+.img_p1 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 1;
+  z-index: 2;
+}
+
+.img_p2 {
+  position: absolute;
+  top: 381px;
+  left: 40px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 1;
+  z-index: 2;
+}
+
+.search {
+  position: absolute;
+  top: 225px;
+  left: 171px;
+  display: none;
+  z-index: 8;
+}
+
+.swiperok .swiper-slide::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  opacity: 0.65;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.swiperok .swiper-slide:hover::before {
+  background: transparent;
+}
+
+.swiperok .swiper-slide img:hover {
+  z-index: 5;
+}
+
+.swiper-slide:hover .search {
+  opacity: 1;
+  visibility: visible;
+}
+
+.swiper-slide:hover .img_p1,
+.swiper-slide:hover .img_p2 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.search {
+  opacity: 0;
+  visibility: hidden;
+  width: 100px;
+  height: 100px;
+  font-size: 37px;
+  border-radius: 50%;
+  background: #d1a954;
+  position: absolute;
+  bottom: 69%;
+  left: 39%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.search:hover {
+  -webkit-box-shadow: 2px 2px 2px #000000;
+          box-shadow: 2px 2px 2px #000000;
+}
+
+.greatest {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container_greatest {
+  height: 550px;
+  background-image: url(images/Rectangle28.jpg);
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.greatest_year > ul {
+  margin-right: 103px;
+}
+
+.greatest_year > ul > li {
+  list-style: none;
+  ont-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* gold */
+  color: #d1a954;
+}
+
+.stars {
+  width: 230px;
+  padding-top: 30px;
+}
+
+.greatest_text > p {
+  margin-top: 20px;
+  width: 540px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  /* or 54px */
+  /* white */
+  color: #ffffff;
+}
+
+.partners {
+  height: 710px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.partners_text {
+  margin: 150px 0 100px;
+}
+
+.logo {
+  width: 1040px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.logo .swiper-slide {
+  width: 278px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.swi {
+  margin-bottom: 60px;
+}
+
+.footer {
+  width: 100%;
+  height: 435px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container_footer {
+  height: 270px;
+  border-bottom: 1px solid #565656;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_text {
+  margin: 0 0 100px;
+}
+
+.footer_contacts {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_contacts > .footer_div > li {
+  margin-bottom: 25px;
+}
+
+.footer_contacts > .footer_div > li > a {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer_form {
+  width: 730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.field_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  border: none;
+  width: 180px;
+  margin-right: 30px;
+  padding: 0;
+  margin-left: 0;
+}
+
+.input_style {
+  width: 180px;
+  height: 35px;
+  margin-bottom: 30px;
+  background: #444444;
+  border: 1px solid #616161;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+}
+
+.footer_comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  border: none;
+  width: 310px;
+  padding: 0;
+  margin-left: 0;
+}
+
+.textarea_style {
+  resize: none;
+  width: 310px;
+  height: 100px;
+  padding: 0;
+  background: #444444;
+  border: 1px solid #616161;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+  text-align: start;
+}
+
+.footer_messege {
+  width: 730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_messege > p {
+  width: 310px;
+  margin-top: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+}
+
+.button {
+  width: 190px;
+  height: 50px;
+  border: none;
+  background: #d1a954;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #989898;
+}
+
+.work_by {
+  height: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.work_by_text {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+  padding-left: 0;
+}
+
+.header_swiper {
+  width: 570px;
+  height: 500px;
+  margin-top: 211px;
+}
+
+.swiper-button-prev {
+  width: 180px;
+  top: 95%;
+}
+
+.header_swiper .swiper-button-next {
+  width: 180px;
+  top: 95%;
+}
+
+.header_swiper .swiper-button-prev::after,
+.header_swiper .swiper-button-next::after {
+  width: 180px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #c4c4c4;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.header_swiper .swiper-button-prev::after {
+  background-image: url(images/Arrow1.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  content: "ПРЕД";
+  text-align: left;
+}
+
+.header_swiper .swiper-button-next::after {
+  background-image: url(images/Arrow2.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  content: "СЛЕД";
+  text-align: left;
+}
+
+.swiper {
+  width: 370px;
+  height: 560px;
+  position: relative;
+}
+
+.swiper_container {
+  margin-left: 0;
+  width: 100%;
+  height: 550px;
+  overflow: visible;
+}
+
+.swiperok {
+  overflow: hidden;
+}
+
+.swiperok .swiper-slide {
+  width: auto !important;
+  overflow: hidden;
+}
+
+.mobile_btn {
+  width: 26px;
+  height: 20px;
+  position: absolute;
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  left: 40px;
+  display: none;
+}
+
+.mobile_btn > span {
+  position: absolute;
+  background-color: #fff;
+  width: 75%;
+  height: 2px;
+  left: 0;
+  top: 9px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.mobile_btn::before,
+.mobile_btn::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.mobile_btn::before {
+  top: 0;
+}
+
+.mobile_btn::after {
+  bottom: 0;
+  width: 50%;
+}
+
+@media screen and (max-width: 1440px) {
+  .contact_info {
+    position: absolute;
+    height: 1045px;
+  }
+  .nav {
+    height: 120px;
+  }
+  .header_tel {
+    width: 125px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .container_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .header_swiper {
+    display: none;
+  }
+  .container_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 690px;
+  }
+  .nav_li:not(:last-child) {
+    margin-right: 20px;
+  }
+  .about_theatre_img {
+    display: none;
+  }
+  .about_teatre_contant {
+    width: 100%;
+  }
+  .container_greatest {
+    width: 100%;
+  }
+  .footer {
+    height: 580px;
+  }
+  .container_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 415px;
+  }
+  .footer_form {
+    width: 690px;
+  }
+  .footer_messege {
+    width: 690px;
+  }
+  .textarea_style {
+    width: 270px;
+  }
+  .footer_contacts {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .div2 {
+    display: -ms-grid;
+    display: grid;
+  }
+  .div2 > li {
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+  .logo {
+    width: 690px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .greatest_text {
+    width: 388px;
+  }
+  .nav {
+    height: 75px;
+  }
+  .greatest_text > p {
+    width: 388px;
+  }
+  .mobile_btn {
+    display: block;
+  }
+  .header_text {
+    margin-top: 197px;
+  }
+  .nav {
+    z-index: 5;
+  }
+  .nav_ul {
+    display: none;
+  }
+  .nav_ul {
+    position: absolute;
+    top: 140px;
+    left: 39px;
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 14;
+  }
+  .nav_ul > li {
+    margin-bottom: 30px;
+    display: none;
+    z-index: 14;
+  }
+  .contact_info {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #333333 !important;
+    opacity: 1;
+    left: -100%;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+    z-index: 5;
+  }
+  .info_menu {
+    left: 0;
+  }
+  .info_ok {
+    overflow: hidden;
+  }
+  .mobile_btn.active::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
+  }
+  .mobile_btn.active::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    width: 100%;
+    bottom: 9px;
+  }
+  .mobile_btn.active > span {
+    display: none;
+  }
+  .active {
+    top: 40px;
+    left: 240px;
+  }
+  .contact_information {
+    display: none;
+  }
+  .contact_hr {
+    display: none;
+  }
+  .messenger {
+    position: fixed;
+    top: 534px;
+    width: 140px;
+    height: 126px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    opacity: 1;
+    left: -100%;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+  }
+  .messenger_style {
+    left: 80px;
+  }
+  .messenger > a {
+    margin: 0;
+    width: 50%;
+    height: 50%;
+  }
+  .nav_ul_style {
+    position: absolute;
+    display: block;
+    z-index: 100;
+  }
+  .nav_ul_style > li {
+    display: block;
+  }
+  .header_tel {
+    display: block;
+    position: absolute;
+    right: 39px;
+    margin-right: 20px;
+  }
+  .our_staging_section {
+    margin-left: 39px;
+  }
+  .main {
+    height: 600px;
+  }
+  .about_theatre_text {
+    margin-top: 90px;
+    margin-bottom: 60px;
+  }
+  .our_staging_text {
+    margin-top: 20px;
+  }
+  .our_staging {
+    height: 820px;
+  }
+  .partners {
+    height: 580px;
+  }
+  .footer {
+    height: 495px;
+  }
+  .footer_text {
+    margin-top: 10px;
+  }
+  .container_footer {
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 800px;
+  }
+  .container {
+    width: 509px;
+  }
+  .greatest_text > p {
+    width: 330px;
+  }
+  .greatest_year > ul {
+    margin-right: 23px;
+  }
+  .footer_form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 509px;
+  }
+  .footer_messege {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 509px;
+  }
+  .logo {
+    width: 509px;
+  }
+  .textarea_style {
+    width: 509px;
+    margin-bottom: 35px;
+  }
+  .footer_messege > p {
+    margin-top: 30px;
+  }
+  .footer {
+    height: 700px;
+  }
+  .container_footer {
+    height: 545px;
+  }
+  .field_name {
+    margin-right: 0;
+  }
+  .main {
+    height: 750px;
+  }
+  .about_teatre_contant {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about_number {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 315px;
+    text-align: center;
+  }
+  .number1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: start;
+  }
+  .great_theatre {
+    text-align: center;
+  }
+  .h3_text {
+    margin-top: 27px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 360px;
+  }
+  .h1_text {
+    width: 360px;
+    font-size: 48px;
+    text-align: center;
+  }
+  .about_teatre {
+    width: 360px;
+    text-align: center;
+  }
+  .header_text {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .poster {
+    margin-top: 50px;
+  }
+  .great_theatre {
+    width: 360px;
+  }
+  .about_theatre_text {
+    font-size: 36px;
+  }
+  .greatest_text > p {
+    width: 150px;
+    font-size: 24px;
+  }
+  .stars {
+    width: 0;
+  }
+  .stars > img {
+    display: none;
+  }
+  .footer_form {
+    width: 360px;
+  }
+  .textarea_style {
+    width: 360px;
+  }
+  .footer_messege {
+    width: 360px;
+  }
+  .footer_contacts {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .div2 > li {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .footer_form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer {
+    height: 860px;
+  }
+  .container_footer {
+    height: 730px;
+  }
+  .greatest_text {
+    width: 150px;
+  }
+  .greatest_year > ul {
+    padding-left: 10px;
+  }
+  .logo {
+    width: 360px;
+  }
+  .our_staging_section {
+    padding-left: 20px;
+  }
+  .header_tel {
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .tel {
+    right: 210px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
