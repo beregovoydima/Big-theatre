@@ -541,7 +541,7 @@ h6 {
 
 .greatest_year > ul > li {
   list-style: none;
-  ont-family: Open Sans Condensed;
+  font-family: Open Sans Condensed;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -562,11 +562,9 @@ h6 {
   width: 540px;
   font-family: Open Sans;
   font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: bold;
+  font-size: 29px;
   line-height: 150%;
-  /* or 54px */
-  /* white */
   color: #ffffff;
 }
 
@@ -1172,6 +1170,9 @@ h6 {
   .container_footer {
     height: 360px;
   }
+  .footer_messege > p {
+    width: 390px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1183,6 +1184,9 @@ h6 {
   }
   .greatest_text > p {
     width: 330px;
+  }
+  .great_theatre {
+    width: 100%;
   }
   .greatest_year > ul {
     margin-right: 23px;
@@ -1261,6 +1265,13 @@ h6 {
   .h3_text {
     margin-top: 27px;
   }
+  .footer_messege > p {
+    width: 75.52%;
+    text-align: center;
+  }
+  .footer_messege > p {
+    width: 435px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1292,13 +1303,13 @@ h6 {
   }
   .greatest_text > p {
     width: 150px;
-    font-size: 24px;
+    font-size: 22px;
   }
   .stars {
-    width: 0;
+    width: 150px;
   }
   .stars > img {
-    display: none;
+    width: 150px;
   }
   .footer_form {
     width: 360px;
@@ -1309,29 +1320,19 @@ h6 {
   .footer_messege {
     width: 360px;
   }
-  .footer_contacts {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    justify-items: center;
-  }
-  .div2 > li {
-    -ms-grid-column-align: center;
-        justify-self: center;
+  .footer_contacts > .footer_div > li > a {
+    font-size: 11.5px;
   }
   .footer_form {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .footer {
-    height: 860px;
+    height: 690px;
   }
   .container_footer {
-    height: 730px;
+    height: 560px;
   }
   .greatest_text {
     width: 150px;
@@ -1349,8 +1350,20 @@ h6 {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
+  .container_nav {
+    width: 100%;
+  }
   .tel {
-    right: 210px;
+    right: 56%;
+  }
+  .input_style {
+    width: 160px;
+  }
+  .field_name {
+    width: 160px;
+  }
+  .footer_messege > p {
+    width: 96%;
   }
 }
 /*# sourceMappingURL=style.css.map */
